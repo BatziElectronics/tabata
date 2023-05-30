@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilo.css">
+<title>Tabata</title>
+</head>
+<body>
+<div class="container">
+<div class="centrar">
+<h1>Entrenamiento</h1>
+<label for="timer-input">Tiempo (segundos): </label>
+<input type="number" id="timer-input" min="1" value="60">
+<br><br>
+<label for="repetitions-input">Repeticiones: </label>
+<input type="number" id="repetitions-input" min="1" value="1">
+<br><br>
+<label for="rest-input">Tiempo de descanso (segundos): </label>
+<input type="number" id="rest-input" min="1" value="30">
+<br><br>
+<label for="name-input">Nombre del temporizador: </label>
+<input type="text" id="name-input">
+<br>
+<div class="boton">
+<button class="button" onclick="startTimer()">Iniciar</button>
+</div>
+<h2 class="timer" id="timer">00:00</h2>
+<h3 id="message"></h3>
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
