@@ -1,0 +1,33 @@
+body {
+font-family: Arial, sans-serif;
+}
+.container {
+display: flex;
+justify-content: center;
+}
+.timer {
+font-size: 48px;
+text-align: center;
+}
+.button {
+margin-top: 20px;
+padding: 10px 20px;
+font-size: 16px;
+color: #fff;
+background: #40e040;
+}
+h1 {
+text-align: center;
+color: #40e040;
+}
+h3 {
+text-align: center;
+}
+.boton {
+display: flex;
+justify-content: center;
+}
+.centrar {
+background: blue;
+padding: 20px 20px;
+}
